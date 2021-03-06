@@ -1,5 +1,6 @@
 html{
     box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
 }
 body{
     margin: 0px;
@@ -8,13 +9,12 @@ body{
 .container{
     display: flex;
     flex-direction: row;
-    padding:1% 13% 1% 13%;
+    padding:1% 11% 1% 11%;
     background-color: #f1f1f1;
     height:auto;
 }
 
-
-/*  SIDE  */
+/*---- SIDE ----*/
 .aside {
     flex: 35%;
     display: flex;
@@ -24,18 +24,22 @@ body{
     background-color: #ffffff;
     box-shadow: 0px 0px 5px 0px gray;
 }
+.aside span{
+    color:#757575;
+    font-size:calc(7px + 0.5vw);
+}
 .img{
     max-width:100%;
 }
 .name{
     font-size: calc(14px + 0.5vw);
-    margin:5px 0px 0px 5px 
+    margin:0px 0px 0px 5px 
 }
 .asideClass{
     padding:20px;
 }
-/*  INFORMATION  */
 
+/*---- INFORMATION ----*/
 .icn1{
     color: #062197;
     padding: 0 10px 10px 0px;
@@ -60,92 +64,100 @@ body{
     margin:20px 0px 20px 0px; 
 }
 
-
-/*-----SKILLS-----*/
+/*----- SKILLS -----*/
 .icn5{
     color: #062197;
     padding: 0px 10px 20px 0px;
 }
 .progress-title{
     margin: 10px 0 0 0px;
+    color:#757575;
+    font-size:calc(7px + 0.5vw)
 }
 .progress{ 
-  background-color: #e9e9e9;
-  width: 90%; 
-  border-radius: 15px; 
-  margin:5 0 20px 0px;
+    background-color: #e9e9e9;
+    width: 100%; 
+    border-radius: 15px; 
+    margin:5 0 20px 0px;
 }   
 .progress .skill { 
-  background-color:#062197;
-  color: white; 
-  padding: 1%;  
-  font-size:calc(4px + 0.5vw); 
-  border-radius: 15px; 
-  text-align: center;
+    background-color:#062197;
+    color: white; 
+    padding: 1%;  
+    font-size:calc(4px + 0.5vw); 
+    border-radius: 15px; 
+    text-align: center;
 }   
 .html{
-  width: 95%; 
+    width: 95%; 
 }
 .html::after{
-  content: "95%"; 
+    content: "95%"; 
 }
 .css{
-  width: 95%; 
+    width: 95%; 
 }
 .css::after{
-  content: "95%"; 
+    content: "95%"; 
 }
 .javaScript{
-  width: 70%; 
+    width: 70%; 
 }
 .javaScript::after{
-  content: "70%"; 
+    content: "70%"; 
 }
 .java{
-  width: 60%; 
+    width: 60%; 
 }
 .java::after{
-  content: "60%"; 
+    content: "60%"; 
 }
 .photoshop{
-  width: 90%; 
+    width: 90%; 
 }
 .photoshop::after{
-  content: "90%"; 
+    content: "90%"; 
 }
 .premiere{
-  width: 70%; 
+    width: 70%; 
 }
 .premiere::after{
-  content: "70%"; 
+    content: "70%"; 
 }
 .photography{
-  width: 80%; 
+    width: 80%; 
 }
 .photography::after{
-  content: "80%"; 
+    content: "80%"; 
 }
 .Illustrator{
-  width: 60%;
+    width: 60%;
 }
 .Illustrator::after{
-  content: "60%";   
+    content: "60%";   
 } 
 
-/*languages*/
+/*---- languages ----*/
 .icn6{
     color: #062197;
-    padding: 0px 10px 20px 0px;
+    padding: 20px 10px 20px 0px;
 }
+.arabic{
+    width: 100%;
+}
+.arabic::after{
+    content: "100%";   
+} 
+.english{
+    width: 75%;
+}
+.english::after{
+    content: "75%";   
+} 
 
 
 
-
-
-
-
-
-
+/*---- sections ----*/
 section {
     flex: 65%;
     display: flex;
@@ -153,23 +165,62 @@ section {
     margin: 0 0 0 1%;
 }
 
+/*---- sections 1 ----*/
 section .article1{
-    flex: 50%;
+    flex: 27%;
     margin: 0% 0% 1% 0%;
     background-color: #ffffff;
     box-shadow: 0px 0px 5px 0px gray;
+    padding: 20px
+}
+.icn7{
+    color: #062197;
+    padding:0px 20px 40px 0px;
+
+}
+.education{
+    padding:0px 0px 40px 0px;
+}
+.education, h3, .date{
+    color:#757575;  
+}
+.degree{
+    color: black;
+}
+.icn8{
+    color:#062197;
+    padding: 15px 0 15px 0
+}
+h3{
+    margin:0 0 5px 0;
+}
+.current{
+    background-color: #062197; 
+    color: white;
+    border-radius:5px;
+    padding:2px;
+}
+.line2{
+    border-bottom:1px solid lightgray;
+    margin:20px 0px 20px 0px;
 }
 
+
+/*---- sections 2 ----*/
 section .article2{
-    flex: 50%;
+    flex: 73%;
     margin: 1% 0% 0% 0%;
     background-color: #ffffff;
-    box-shadow: 0px 0px 5px 0px gray;
-    
+    box-shadow: 0px 0px 5px 0px gray;  
 }
-
 footer{
-    background-color:black;
+    background-color:#062197;
     text-align: center;
-
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+footer p, a{
+    color: white;
+    text-decoration: none;
 }
