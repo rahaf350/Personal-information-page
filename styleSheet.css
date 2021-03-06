@@ -54,10 +54,18 @@ body{
     padding: 10px 7px 10px 0px;
     margin-left:-2;
 }
+.email{
+    color: #757575;
+    text-decoration: none;
+}
 .icn4{
     color:#062197;
     padding: 10px 10px 0px 0px;
     margin-left:-1;
+}
+.tel{
+    color: #757575;
+    text-decoration: none; 
 }
 .line1{
     border-bottom:1px solid lightgray;
