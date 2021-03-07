@@ -181,11 +181,11 @@ section .article1{
 }
 .icn7{
     color: #062197;
-    padding:0px 20px 40px 0px;
+    padding:0px 15px 30px 0px;
 
 }
 .education{
-    padding:0px 0px 40px 0px;
+    padding:0px 0px 30px 0px;
 }
 .education, h3, .date{
     color:#757575;  
@@ -199,6 +199,7 @@ section .article1{
 }
 h3{
     margin:0 0 5px 0;
+    font-size:calc(10px + 0.5vw);
 }
 .current{
     background-color: #062197; 
@@ -232,10 +233,58 @@ footer p, a{
     text-decoration: none;
 }
 
-/*---- RESPONSIVE ----*/
-@media screen and (max-width: 1024px){
-    body{
-        background-color: aqua;
+
+
+/*---- RESPONSIVE 1 ----*/
+@media screen and (max-width: 1100px){
+    .container{
+        padding:1% 2% 1% 2%;
+    }
+    .date{
+        font-size:calc(10px + 0.5vw)
+    }
+    .degree{
+        font-size:calc(10px + 0.5vw)
+    }
+    .icn7{
+        padding: 0px 10px 25px 0px;
     }
 }
+
+/*---- RESPONSIVE 2 ----*/
+@media screen and (max-width: 1000px){
+    .progress-title{
+        font-size:calc(12px + 0.5vw)
+    }
+    .information span{
+        font-size:calc(7px + 0.5vw)
+    }
+}
+    
+
+/*---- RESPONSIVE 3 ----*/
+@media screen and (max-width: 750px){
+    .container{
+        flex-direction: column;
+        padding:1% 10% 1% 10%;
+    }
+    .aside{
+        margin: 0px 0px 10px 0px;
+    }
+    section{
+        
+        margin: 10px 0px 10px 0px;
+    }  
+    .information span{
+        font-size:calc(12px + 0.5vw)
+    }
+    .article1 h3{
+        margin:0;
+    }
+}
+
+    
+
+
+
 
