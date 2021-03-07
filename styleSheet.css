@@ -231,3 +231,11 @@ footer p, a{
     color: white;
     text-decoration: none;
 }
+
+/*---- RESPONSIVE ----*/
+@media screen and (max-width: 1024px){
+    body{
+        background-color: aqua;
+    }
+}
+
